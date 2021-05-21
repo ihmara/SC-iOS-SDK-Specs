@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "TestSCiOSSDK"
+  s.name         = "sharedSdk"
   s.version      = "1.0.0"
   s.summary      = "A brief description of sharedSdk project."
   s.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
                   LICENSE
                 }
   s.author             = { "$(git config user.name)" => "$(git config user.email)" }
-  s.source       = { :git => "git@github.com:Ilinich/Test-SDK-KMM.git", :tag => "#{s.version}", :flatten => true }
+  s.source       = { :git => "git@github.com:ihmara/SC-iOS-SDK-Distrib.git", :tag => "#{s.version}"}
   s.vendored_frameworks = "sharedSdk.xcframework"
   s.platform = :ios
   s.ios.deployment_target  = '14.1'
